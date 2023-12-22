@@ -12,8 +12,8 @@ function StartComponent({showQuiz, toggleTheme}) {
             <div className="StartPageLeftDiv">
                 <div className="LeftDivTop" style={darkTheme ? {backgroundColor : '#2E2E2E', color : 'white', border: "2px solid white"} : {backgroundColor : '#FBD548'}}>
                 <h1><span id="logo">QUIZ</span>rrr</h1>
-                    <p style={{marginTop: "10vh", fontSize : "3vh", lineHeight : "4vh"}}>Quizzes are fun, engaging, and effective ways to test your knowledge, improve your learning, and identify your strengths and weaknesses.</p>
-                    <p style={{marginTop : "6vh", fontSize : "2.7vh", lineHeight : "4vh"}}>Experts also agree that quizzes are not only fun, but also beneficial for your brain health, memory, and cognitive skills.</p>
+                    <p style={{marginTop: "10vh", fontSize : "1.5vw", lineHeight : "4vh"}}>Quizzes are fun, engaging, and effective ways to test your knowledge, improve your learning, and identify your strengths and weaknesses.</p>
+                    <p style={{marginTop : "6vh", fontSize : "1.2vw", lineHeight : "4vh"}}>Experts also agree that quizzes are not only fun, but also beneficial for your brain health, memory, and cognitive skills.</p>
                 </div>
                 <div className="LeftDivBottom" style={darkTheme ? {backgroundColor : '#2E2E2E', color : 'white', border: "2px solid white"} : {backgroundColor : '#CA507D'}}>
                     <p>Countact Us <img width="50" height="50" src="https://img.icons8.com/ios/50/000000/long-arrow-right--v1.png" alt="long-arrow-right--v1"/></p>
